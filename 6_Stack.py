@@ -31,7 +31,7 @@ while True:
                 print (f"\n{a[i]}")
                 
     elif b==4:
-        print ("End")
+        print ("End... Thank You.")
         break
     else:
         print("Invalid choice!")

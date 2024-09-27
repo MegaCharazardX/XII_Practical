@@ -14,6 +14,7 @@ def factorial (n):
             fact *= n
             n-=1
         return fact
-num = int (input("Enter the number to find factorial!" ))
+    
+num = int (input("Enter the number to find factorial : " ))
 
-print(" Factorial of ", num, "is", factorial (num))
+print(f"Factorial of {num} is {factorial (num)}.")

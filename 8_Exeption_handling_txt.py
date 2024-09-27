@@ -1,7 +1,8 @@
 # Program - 8
 error_name = ""
 try : 
-    file_loc = input("Enter your file location & name of the file : ")
+    file_loc = input("Enter your file location and name :")
+#of the file : ")
     f1 = open(file_loc, "r")
     content = f1.read()
     print(content)
