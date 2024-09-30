@@ -11,6 +11,7 @@ c= True
 
 while c:
     print ("Generating...")
+    print("Hello")
     print(f"Number : {generate_num()}")
     b=input ("Do you want to go again (y/n)?")
     if b == 'y':

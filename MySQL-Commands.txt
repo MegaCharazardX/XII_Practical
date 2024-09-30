@@ -1,0 +1,21 @@
+# -- Creating Database :-
+    CREATE DATABASE Employee_DB;
+
+# Use Database :-
+    USE Emplyee_DB;
+
+# Create Table :-
+    CREATE TABLE employee (
+    e_code int(15), 
+    e_name varchar(50), 
+    designation char(50), 
+    gross_pay int(10)
+    );
+
+# Insert Values :-
+    INSERT INTO employee VALUES
+    (1, "Hari", "Owner", 100000),
+    (2, "Pranav", "CEO", 50000),
+    (3, "Akshay", "Cheif Engineer", 50000),
+    (4, "Ananthan", "Manager", 20000)
+    ;
