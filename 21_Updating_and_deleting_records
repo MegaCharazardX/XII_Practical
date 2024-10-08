@@ -10,9 +10,8 @@ con = pymysql.connect(
 
 cur = con.cursor()
 cur = con.cursor()
-cur.execute("CREATE TABLE IF NOT EXIST stud(roll_num int(10), name varchar(25), std int(5))")
+cur.execute("UPDATE stud SET roll_num = 7 where name = 'AMAL'")
+print("Successfully updated")
+cur.execute("DELETE FROM stud where name = 'AKIL'")
 con.commit()
-print("Table Created")
-cur.execute("DESC stud")
-for i in cur :
-    print(i)
+print("Successfully deleted")

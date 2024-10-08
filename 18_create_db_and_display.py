@@ -10,8 +10,8 @@ con = pymysql.connect(
 
 cur = con.cursor()
 cur = con.cursor()
-cur.execute("CREATE DATABASE IF NOT EXISTS School ;")
-print("DB Created")
+cur.execute("CREATE DATABASE IF NOT EXISTS school ;")
+print("Database Created")
 cur.execute("SHOW DATABASES ;")
 for i in cur :
     print(i)

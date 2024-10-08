@@ -3,7 +3,7 @@ import random, time
 print("Random Number Generator")
 
 def generate_num():
-    time.sleep(2.1)
+    time.sleep(2)
     a=random.randint (1,6) 
     return a
 
